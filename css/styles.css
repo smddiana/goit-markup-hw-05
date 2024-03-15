@@ -642,10 +642,10 @@ p {
 .first-modal-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.first-modal-svg:hover {
+.modal-dialog-button:hover .first-modal-svg {
     fill: #ffffff;
 }
-.first-modal-svg:focus {
+.modal-dialog-button:focus .first-modal-svg {
     fill: #ffffff;
 }
 .second-modal-svg {
