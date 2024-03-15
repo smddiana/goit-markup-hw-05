@@ -546,13 +546,15 @@ p {
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
+    margin-bottom: 16px;
 }
 .footer-form{
     display: flex;
-}
-.footer-label {
     gap: 24px;
 }
+/*.footer-label {
+    gap: 24px;
+}*/
 .first-input-footer {
     width: 264px;
     height: 40px;
