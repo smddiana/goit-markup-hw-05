@@ -721,7 +721,64 @@ p {
 .textarea-modal-comment:focus {
     border-color: #4D5AE5;
 }
-
+/*CHECKBOX*/
+.container-checkbox-label {
+    margin-bottom: 24px;
+}
+.label-checkbox {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+.label-checkbox {
+    color: var(--LIGHT-SLATE, #8E8F99);
+}
+.label-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.input-checkbox:checked+.label-span {
+    background-color: #404bbf;
+    border: none;
+}
+.input-checkbox:checked+.label-span {
+    color: var(--CLOUD, #F4F4FD);
+}
+.label-link {
+    color: var(--IRIS, #4D5AE5);
+}
+.label-link {
+    font-family: Roboto;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+.button-send {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border-radius: 4px;
+}
 
 
 
