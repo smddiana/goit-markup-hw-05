@@ -657,6 +657,16 @@ p {
 .second-modal-svg:focus {
     fill: #ffffff;
 }
+.third-modal-svg {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-text-2:focus+.third-modal-svg {
+    fill: #4D5AE5;
+}
 /*Modal Paragraph*/
 .modal-pargraph-1 {
     font-weight: 500;
@@ -682,6 +692,12 @@ p {
 .container-input-icon {
     position: relative;
 }
+.container-input-icon-2 {
+    position: relative;
+}
+.container-input-icon-3 {
+    margin-bottom: 16px;
+}
 .input-text-1 {
     width: 100%;
     height: 40px;
@@ -695,22 +711,100 @@ p {
 .input-text-1:focus {
     border-color: #4D5AE5;
 }
+.modal-form-2 {
+    margin-bottom: 8px;
+}
+.input-text-2 {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.input-text-2:focus {
+    border-color: #4D5AE5;
+}
+.label-2 {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: block;
+    margin-bottom: 4px;
+}
+.textarea-first {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.textarea-first:focus {
+    border-color: #4D5AE5;
+}
+.container-checkbox-label {
+    margin-bottom: 24px;
+}
+.input-text-3 {
 
+}
+.label-3 {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
+/*SPAN*/
+.label-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+.input-text-3 {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+.input-text-3:checked+label-span {
+    background-color: #404bbf;
+    /* Колір фону span, коли input у стані checked */
+    border: none;
+    fill: #F4F4FD;
+}
+.link-label-span {
+    color: #4d5ae5;
+    text-decoration: none;
+}
+.form-button-span {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 
 
