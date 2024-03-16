@@ -701,7 +701,7 @@ p {
 .input-user-name:focus {
     border-color: #4D5AE5;
 }
-.form-container-modal-dialog-2 {
+.form-for {
     margin-bottom: 16px;
 }
 .textarea-modal-comment {
@@ -749,7 +749,7 @@ p {
     background-color: #404bbf;
     border: none;
 }
-.input-checkbox:checked + .label-checkbox .label-span .checkbox-svg use {
+.input-checkbox:checked + .label-checkbox .label-span {
     fill: #F4F4FD;
 }
 .label-link {
