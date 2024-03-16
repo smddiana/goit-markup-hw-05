@@ -745,11 +745,11 @@ p {
     justify-content: center;
     fill: transparent;
 }
-.input-checkbox:checked+.label-checkbox .label-span {
+.input-checkbox:checked + .label-checkbox .label-span {
     background-color: #404bbf;
     border: none;
 }
-.input-checkbox:checked+.label-checkbox .label-span .checkbox-svg use {
+.input-checkbox:checked + .label-checkbox .label-span .checkbox-svg use {
     fill: #F4F4FD;
 }
 .label-link {
