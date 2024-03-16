@@ -446,7 +446,7 @@ p {
 .first-icons:focus {
     background-color: #404bbf;
 }
-:root {
+.first-icons:root {
     --background-color: #4d5ae5;
 }
 
