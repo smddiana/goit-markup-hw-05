@@ -584,6 +584,7 @@ p {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 .svg-footer-button {
     margin-left: 16px;
@@ -744,12 +745,12 @@ p {
     justify-content: center;
     fill: transparent;
 }
-.input-checkbox:checked + .label-span {
+.input-checkbox:checked+.label-checkbox .label-span {
     background-color: #404bbf;
     border: none;
 }
-.input-checkbox:checked + .label-span {
-    color: var(--CLOUD, #F4F4FD);
+.input-checkbox:checked+.label-checkbox .checkbox-svg use {
+    fill: #F4F4FD;
 }
 .label-link {
     color: var(--IRIS, #4D5AE5);
