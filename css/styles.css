@@ -749,7 +749,7 @@ p {
     background-color: #404bbf;
     border: none;
 }
-.input-checkbox:checked+.label-checkbox .checkbox-svg use {
+.input-checkbox:checked+.label-checkbox .checkbox-svg {
     fill: #F4F4FD;
 }
 .label-link {
